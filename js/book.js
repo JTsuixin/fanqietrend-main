@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const btn = e.currentTarget;
         const text = `${book.title}
 作者：${book.author || '未知'}
-阅读量：${latest.readsLabel}
+在读：${latest.readsLabel}
 简介：${book.intro || '无'}
 链接：${book.url || '无'}`;
         copyText(text).then(() => {

@@ -1816,3 +1816,12 @@ input:focus-visible {
         border-radius: var(--radius-lg);
     }
 }
+
+/* ---------- 卡片热度 pill 前缀标注 ---------- */
+.book-reads .reads-unit-label {
+    margin-right: 4px;
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.72;
+}

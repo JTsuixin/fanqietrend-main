@@ -145,7 +145,7 @@ def generate_trend_summary_text(cat_name: str, trend: dict) -> str:
         parts.append(f"《{r['title']}》排名上升{r['change']}位")
     if trend["reads_growth"]:
         g = trend["reads_growth"][0]
-        parts.append(f"《{g['title']}》阅读量{g['growth']}")
+        parts.append(f"《{g['title']}》在读{g['growth']}")
     if not parts:
         parts.append("榜单无明显变动")
     return "；".join(parts) + "。"

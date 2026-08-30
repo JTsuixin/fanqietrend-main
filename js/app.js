@@ -485,7 +485,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3 class="book-title" title="${escapeAttr(book.title)}">${escapeHtml(book.title)}</h3>
                     <div class="book-meta">
                         <span class="book-author">${escapeHtml(book.author)}</span>
-                        <span class="book-reads">${escapeHtml(book.reads)}</span>
+                        <span class="book-reads" title="番茄官方统计 · 在读人数"><em class="reads-unit-label">在读</em>${escapeHtml(book.reads)}</span>
                     </div>
                     <p class="book-intro">${escapeHtml(book.intro)}</p>
                     <button class="book-copy-btn" type="button">复制信息</button>
