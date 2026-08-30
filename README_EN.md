@@ -2,7 +2,7 @@
 
 [![中文](https://img.shields.io/badge/lang-中文-red)](README.md)
 
-> 👗 Focused exclusively on **Fanqie Novel's Female Category (女频)**, featuring daily automated tracking of new book rankings and AI-powered trend analysis, deployed as a premium online dashboard.
+> 📚 Covers **both the Male (男频) and Female (女频) channels of Fanqie Novel's new-book rankings**, featuring daily automated tracking of new book rankings and AI-powered trend analysis, deployed as a premium online dashboard.
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Feature | Description |
 |---------|-------------|
-| 🕷️ Auto Scraping | Daily automated scraping of Top 30 new books across all sub-categories within Fanqie's Female section |
+| 🕷️ Auto Scraping | Daily automated scraping of Top 30 new books across all sub-categories in both Fanqie's Male and Female sections |
 | 📊 Trend Analysis | Automatic day-over-day comparison: new entries / dropped / rank changes / readership growth |
 | 🤖 AI Summary | OpenAI-compatible API integration for per-category market trend analysis |
 | 🖥️ Dashboard | Dark editorial-style dashboard with typewriter animation and waterfall book cards |
@@ -112,7 +112,7 @@ FanqieRankTracker/
 ├── scripts/
 │   └── build_latest.py         # Trend comparison + AI analysis build script
 ├── data/
-│   ├── fanqie_female_new_ranks_YYYYMMDD.json  # Daily raw snapshots
+│   ├── fanqie_ranks_YYYYMMDD.json  # Daily raw snapshots (male + female; legacy snapshots use fanqie_female_new_ranks_*)
 │   ├── latest_ranks.json       # Latest aggregated data (dashboard source)
 │   └── trends/
 │       └── YYYY-MM-DD.json     # Trend archives

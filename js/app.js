@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function loadDateData(dateStr) {
-        // dateStr = "YYYY-MM-DD", file = fanqie_female_new_ranks_YYYYMMDD.json
+        // dateStr = "YYYY-MM-DD", file = fanqie_ranks_YYYYMMDD.json (历史日期回退 fanqie_female_new_ranks_YYYYMMDD.json)
         const fileDateStr = dateStr.replace(/-/g, '');
         const isLatest = currentDateIndex === availableDates.length - 1;
 
@@ -227,12 +227,15 @@ document.addEventListener('DOMContentLoaded', () => {
         // Show loading state
         waterfall.innerHTML = '<p style="color:var(--text-muted);padding:20px;">加载中...</p>';
 
-        const snapshotUrl = `data/fanqie_female_new_ranks_${fileDateStr}.json?${cacheBuster}`;
+        const snapshotUrl = `data/fanqie_ranks_${fileDateStr}.json?${cacheBuster}`;
+        const legacySnapshotUrl = `data/fanqie_female_new_ranks_${fileDateStr}.json?${cacheBuster}`;
         const trendUrl = `data/trends/${dateStr}.json?${cacheBuster}`;
 
-        // Load snapshot + trends in parallel
+        // Load snapshot + trends in parallel (snapshot falls back to legacy filename)
         Promise.all([
-            fetch(snapshotUrl).then(r => r.ok ? r.json() : Promise.reject('No snapshot')),
+            fetch(snapshotUrl)
+                .then(r => r.ok ? r.json() : Promise.reject('No snapshot'))
+                .catch(() => fetch(legacySnapshotUrl).then(r => r.ok ? r.json() : Promise.reject('No snapshot'))),
             fetch(trendUrl).then(r => r.ok ? r.json() : null).catch(() => null)
         ]).then(([snapshot, trendData]) => {
             // Build a data object in the same shape as latest_ranks.json

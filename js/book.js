@@ -23,7 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const dateIndex = await fetchJson(`data/dates.json?${cacheBuster}`);
             const dates = (dateIndex.dates || []).slice().sort().slice(-maxDays);
             const snapshots = await Promise.all(
-                dates.map(date => fetchJson(`${snapshotUrl(date)}?${cacheBuster}`).catch(() => null))
+                dates.map(date => fetchJson(`${snapshotUrl(date)}?${cacheBuster}`)
+                    .catch(() => fetchJson(`${legacySnapshotUrl(date)}?${cacheBuster}`))
+                    .catch(() => null))
             );
             const records = collectBookRecords(bookId, bookTitle, dates, snapshots);
 
@@ -40,6 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function snapshotUrl(date) {
+        const compact = date.replace(/-/g, '');
+        // 新版文件名优先，历史日期回退旧文件名
+        return `data/fanqie_ranks_${compact}.json`;
+    }
+
+    function legacySnapshotUrl(date) {
         return `data/fanqie_female_new_ranks_${date.replace(/-/g, '')}.json`;
     }
 

@@ -229,6 +229,12 @@ GENRE_GROUPS = [
     {"name": "年代民国", "categories": ["年代", "民国言情"]},
     {"name": "娱乐星光", "categories": ["星光璀璨"]},
     {"name": "游戏体育", "categories": ["游戏体育"]},
+    {"name": "男频·都市", "categories": ["男频·都市日常", "男频·都市高武", "男频·都市修真", "男频·都市种田", "男频·战神赘婿"]},
+    {"name": "男频·玄幻仙侠", "categories": ["男频·传统玄幻", "男频·西方奇幻", "男频·东方仙侠", "男频·玄幻脑洞"]},
+    {"name": "男频·历史谍战", "categories": ["男频·历史古代", "男频·历史脑洞", "男频·抗战谍战"]},
+    {"name": "男频·悬疑灵异", "categories": ["男频·悬疑脑洞", "男频·悬疑灵异"]},
+    {"name": "男频·脑洞科幻", "categories": ["男频·都市脑洞", "男频·科幻末世"]},
+    {"name": "男频·衍生游戏", "categories": ["男频·动漫衍生", "男频·男频衍生", "男频·游戏体育"]},
 ]
 
 MARKET_KEYWORDS = [
@@ -238,6 +244,8 @@ MARKET_KEYWORDS = [
     "甜宠", "双洁", "强制爱", "无CP", "末世", "废土", "天灾", "囤货", "异能",
     "国运", "星际", "修仙", "玄学", "无限流", "悬疑", "直播", "综艺", "娱乐圈",
     "校园", "暗恋", "青梅竹马", "民国", "兽世", "远古", "基建",
+    "赘婿", "战神", "高武", "修真", "仙侠", "灵气复苏", "神豪", "鉴宝", "兵王",
+    "御兽", "长生", "四合院", "谍战", "规则怪谈", "克苏鲁", "御剑", "天骄",
 ]
 
 
@@ -711,7 +719,7 @@ def build_market_ai_prompt(payload: dict) -> str:
             f"- 规则兜底: {data['fallback_summary']}"
         )
 
-    return f"""你是一位网文市场编辑，请根据番茄女频新书榜的统计结果，为每个周期生成一段全站热点判断。
+    return f"""你是一位网文市场编辑，请根据番茄小说新书榜（男频+女频）的统计结果，为每个周期生成一段全站热点判断。
 
 {chr(10).join(sections)}
 
@@ -958,9 +966,10 @@ def main():
     trends_dir = os.path.join(data_dir, "trends")
     os.makedirs(trends_dir, exist_ok=True)
 
-    # 查找 JSON 快照文件
+    # 查找 JSON 快照文件（新版 fanqie_ranks_* + 历史版 fanqie_female_new_ranks_*）
     snapshots = sorted(
-        glob.glob(os.path.join(data_dir, "fanqie_female_new_ranks_*.json"))
+        glob.glob(os.path.join(data_dir, "fanqie_ranks_*.json"))
+        + glob.glob(os.path.join(data_dir, "fanqie_female_new_ranks_*.json"))
     )
 
     if not snapshots:
@@ -970,9 +979,11 @@ def main():
     # 根据 --date 参数选择目标快照
     if args.date:
         target_date_compact = args.date.replace("-", "")
-        target_path = os.path.join(
-            data_dir, f"fanqie_female_new_ranks_{target_date_compact}.json"
-        )
+        candidates = [
+            os.path.join(data_dir, f"fanqie_ranks_{target_date_compact}.json"),
+            os.path.join(data_dir, f"fanqie_female_new_ranks_{target_date_compact}.json"),
+        ]
+        target_path = next((p for p in candidates if os.path.exists(p)), candidates[0])
         if not os.path.exists(target_path):
             print(f"❌ 未找到 {args.date} 的快照文件: {target_path}")
             sys.exit(1)
