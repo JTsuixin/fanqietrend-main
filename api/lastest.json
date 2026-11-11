@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-10",
-  "prev_date": "2026-11-09",
+  "date": "2026-11-11",
+  "prev_date": "2026-11-10",
   "types": [
     {
       "type": "all",
       "url": "api/lastest/all.json",
       "category_count": 37,
-      "book_count": 720
+      "book_count": 738
     },
     {
       "type": "古风世情",
@@ -126,7 +126,7 @@
     {
       "type": "男频·都市高武",
       "url": "api/lastest/%E7%94%B7%E9%A2%91_%E9%83%BD%E5%B8%82%E9%AB%98%E6%AD%A6.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "男频·历史古代",
@@ -136,7 +136,7 @@
     {
       "type": "男频·战神赘婿",
       "url": "api/lastest/%E7%94%B7%E9%A2%91_%E6%88%98%E7%A5%9E%E8%B5%98%E5%A9%BF.json",
-      "book_count": 10
+      "book_count": 18
     },
     {
       "type": "男频·都市种田",
