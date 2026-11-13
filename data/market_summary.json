@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-12",
-  "prev_date": "2026-11-11",
+  "date": "2026-11-13",
+  "prev_date": "2026-11-12",
   "periods": {
     "7": {
       "period": "近 7 日",
       "source": "rule",
-      "summary": "近 7 日里，男频·悬疑灵异、男频·都市 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑脑洞、男频·悬疑灵异 的新增在读更集中；新书题材上 系统、重生、空间、修仙、末世、双洁 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
-      "fallback_summary": "近 7 日里，男频·悬疑灵异、男频·都市 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑脑洞、男频·悬疑灵异 的新增在读更集中；新书题材上 系统、重生、空间、修仙、末世、双洁 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "summary": "近 7 日里，男频·悬疑灵异、男频·都市 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑灵异、男频·悬疑脑洞 的新增在读更集中；新书题材上 系统、重生、空间、修仙、年代、末世 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "fallback_summary": "近 7 日里，男频·悬疑灵异、男频·都市 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑灵异、男频·悬疑脑洞 的新增在读更集中；新书题材上 系统、重生、空间、修仙、年代、末世 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
       "hot_genres": [
         {
           "name": "男频·悬疑灵异",
-          "score": 1870000,
-          "new_count": 26,
-          "dropped_count": 26,
+          "score": 1777000,
+          "new_count": 27,
+          "dropped_count": 27,
           "read_count": 42,
-          "read_growth_total": 1870000.0,
+          "read_growth_total": 1777000.0,
           "active_days": 14,
-          "lead_category": "男频·悬疑脑洞",
+          "lead_category": "男频·悬疑灵异",
           "categories": [
             "男频·悬疑脑洞",
             "男频·悬疑灵异"
@@ -24,11 +24,11 @@
         },
         {
           "name": "男频·都市",
-          "score": 1636145,
-          "new_count": 84,
-          "dropped_count": 86,
+          "score": 1563670,
+          "new_count": 83,
+          "dropped_count": 87,
           "read_count": 105,
-          "read_growth_total": 1636145.0,
+          "read_growth_total": 1563670.0,
           "active_days": 35,
           "lead_category": "男频·都市日常",
           "categories": [
@@ -41,11 +41,11 @@
         },
         {
           "name": "男频·玄幻仙侠",
-          "score": 1625000,
+          "score": 1552000,
           "new_count": 62,
           "dropped_count": 62,
           "read_count": 84,
-          "read_growth_total": 1625000.0,
+          "read_growth_total": 1552000.0,
           "active_days": 28,
           "lead_category": "男频·玄幻脑洞",
           "categories": [
@@ -57,11 +57,11 @@
         },
         {
           "name": "男频·衍生游戏",
-          "score": 1491000,
-          "new_count": 50,
-          "dropped_count": 50,
+          "score": 1528000,
+          "new_count": 49,
+          "dropped_count": 49,
           "read_count": 63,
-          "read_growth_total": 1491000.0,
+          "read_growth_total": 1528000.0,
           "active_days": 21,
           "lead_category": "男频·动漫衍生",
           "categories": [
@@ -72,11 +72,11 @@
         },
         {
           "name": "现代言情",
-          "score": 1426000,
-          "new_count": 57,
-          "dropped_count": 57,
+          "score": 1432000,
+          "new_count": 56,
+          "dropped_count": 56,
           "read_count": 84,
-          "read_growth_total": 1426000.0,
+          "read_growth_total": 1432000.0,
           "active_days": 28,
           "lead_category": "现言脑洞",
           "categories": [
@@ -90,89 +90,79 @@
       "hot_types": [
         {
           "name": "男频·都市脑洞",
-          "score": 965000,
-          "new_count": 20,
-          "dropped_count": 20,
+          "score": 973000,
+          "new_count": 22,
+          "dropped_count": 22,
           "read_count": 21,
-          "read_growth_total": 965000.0,
-          "active_days": 7
-        },
-        {
-          "name": "男频·悬疑脑洞",
-          "score": 948000,
-          "new_count": 12,
-          "dropped_count": 12,
-          "read_count": 21,
-          "read_growth_total": 948000.0,
+          "read_growth_total": 973000.0,
           "active_days": 7
         },
         {
           "name": "男频·悬疑灵异",
-          "score": 922000,
+          "score": 901000,
+          "new_count": 13,
+          "dropped_count": 13,
+          "read_count": 21,
+          "read_growth_total": 901000.0,
+          "active_days": 7
+        },
+        {
+          "name": "男频·悬疑脑洞",
+          "score": 876000,
           "new_count": 14,
           "dropped_count": 14,
           "read_count": 21,
-          "read_growth_total": 922000.0,
+          "read_growth_total": 876000.0,
           "active_days": 7
         },
         {
           "name": "男频·动漫衍生",
-          "score": 764000,
-          "new_count": 15,
-          "dropped_count": 15,
+          "score": 799000,
+          "new_count": 14,
+          "dropped_count": 14,
           "read_count": 21,
-          "read_growth_total": 764000.0,
+          "read_growth_total": 799000.0,
           "active_days": 7
         },
         {
           "name": "男频·玄幻脑洞",
-          "score": 677000,
-          "new_count": 22,
-          "dropped_count": 22,
+          "score": 701000,
+          "new_count": 19,
+          "dropped_count": 19,
           "read_count": 21,
-          "read_growth_total": 677000.0,
+          "read_growth_total": 701000.0,
           "active_days": 7
         },
         {
           "name": "男频·都市日常",
-          "score": 561000,
-          "new_count": 16,
-          "dropped_count": 16,
+          "score": 520000,
+          "new_count": 17,
+          "dropped_count": 17,
           "read_count": 21,
-          "read_growth_total": 561000.0,
+          "read_growth_total": 520000.0,
           "active_days": 7
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 117,
+          "count": 129,
           "category_count": 30
         },
         {
           "name": "重生",
-          "count": 43,
-          "category_count": 21
+          "count": 41,
+          "category_count": 22
         },
         {
           "name": "空间",
-          "count": 35,
-          "category_count": 14
+          "count": 34,
+          "category_count": 16
         },
         {
           "name": "修仙",
-          "count": 25,
-          "category_count": 14
-        },
-        {
-          "name": "末世",
           "count": 24,
-          "category_count": 9
-        },
-        {
-          "name": "双洁",
-          "count": 23,
-          "category_count": 12
+          "category_count": 15
         },
         {
           "name": "年代",
@@ -180,55 +170,65 @@
           "category_count": 9
         },
         {
-          "name": "女配",
+          "name": "末世",
+          "count": 23,
+          "category_count": 9
+        },
+        {
+          "name": "双洁",
           "count": 22,
-          "category_count": 11
+          "category_count": 9
         },
         {
-          "name": "穿书",
-          "count": 19,
-          "category_count": 13
-        },
-        {
-          "name": "炮灰",
-          "count": 19,
-          "category_count": 13
-        },
-        {
-          "name": "反派",
-          "count": 17,
-          "category_count": 12
-        },
-        {
-          "name": "团宠",
-          "count": 13,
+          "name": "女配",
+          "count": 21,
           "category_count": 10
         },
         {
-          "name": "总裁",
-          "count": 13,
-          "category_count": 6
+          "name": "炮灰",
+          "count": 20,
+          "category_count": 13
+        },
+        {
+          "name": "穿书",
+          "count": 20,
+          "category_count": 12
+        },
+        {
+          "name": "反派",
+          "count": 16,
+          "category_count": 12
         },
         {
           "name": "直播",
-          "count": 13,
-          "category_count": 6
+          "count": 15,
+          "category_count": 7
+        },
+        {
+          "name": "快穿",
+          "count": 15,
+          "category_count": 4
+        },
+        {
+          "name": "团宠",
+          "count": 12,
+          "category_count": 10
         }
       ]
     },
     "14": {
       "period": "近 14 日",
       "source": "rule",
-      "summary": "近 14 日里，男频·都市、男频·玄幻仙侠 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑脑洞、男频·悬疑灵异 的新增在读更集中；新书题材上 系统、重生、空间、修仙、末世、双洁 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
-      "fallback_summary": "近 14 日里，男频·都市、男频·玄幻仙侠 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑脑洞、男频·悬疑灵异 的新增在读更集中；新书题材上 系统、重生、空间、修仙、末世、双洁 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "summary": "近 14 日里，男频·都市、男频·悬疑灵异 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑脑洞、男频·悬疑灵异 的新增在读更集中；新书题材上 系统、重生、空间、修仙、末世、穿书 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "fallback_summary": "近 14 日里，男频·都市、男频·悬疑灵异 的阅读增长更强，具体分类以 男频·都市脑洞、男频·悬疑脑洞、男频·悬疑灵异 的新增在读更集中；新书题材上 系统、重生、空间、修仙、末世、穿书 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
       "hot_genres": [
         {
           "name": "男频·都市",
-          "score": 3077273,
-          "new_count": 153,
-          "dropped_count": 155,
+          "score": 3027880,
+          "new_count": 150,
+          "dropped_count": 154,
           "read_count": 210,
-          "read_growth_total": 3077273.0,
+          "read_growth_total": 3027880.0,
           "active_days": 70,
           "lead_category": "男频·都市高武",
           "categories": [
@@ -240,12 +240,26 @@
           ]
         },
         {
+          "name": "男频·悬疑灵异",
+          "score": 2849000,
+          "new_count": 53,
+          "dropped_count": 53,
+          "read_count": 84,
+          "read_growth_total": 2849000.0,
+          "active_days": 28,
+          "lead_category": "男频·悬疑脑洞",
+          "categories": [
+            "男频·悬疑脑洞",
+            "男频·悬疑灵异"
+          ]
+        },
+        {
           "name": "男频·玄幻仙侠",
-          "score": 2949000,
+          "score": 2813000,
           "new_count": 119,
           "dropped_count": 119,
           "read_count": 168,
-          "read_growth_total": 2949000.0,
+          "read_growth_total": 2813000.0,
           "active_days": 56,
           "lead_category": "男频·玄幻脑洞",
           "categories": [
@@ -256,26 +270,27 @@
           ]
         },
         {
-          "name": "男频·悬疑灵异",
-          "score": 2843000,
-          "new_count": 55,
-          "dropped_count": 55,
-          "read_count": 84,
-          "read_growth_total": 2843000.0,
-          "active_days": 28,
-          "lead_category": "男频·悬疑脑洞",
+          "name": "男频·衍生游戏",
+          "score": 2411000,
+          "new_count": 92,
+          "dropped_count": 92,
+          "read_count": 126,
+          "read_growth_total": 2411000.0,
+          "active_days": 42,
+          "lead_category": "男频·动漫衍生",
           "categories": [
-            "男频·悬疑脑洞",
-            "男频·悬疑灵异"
+            "男频·动漫衍生",
+            "男频·男频衍生",
+            "男频·游戏体育"
           ]
         },
         {
           "name": "现代言情",
-          "score": 2484000,
-          "new_count": 96,
-          "dropped_count": 96,
+          "score": 2369000,
+          "new_count": 93,
+          "dropped_count": 93,
           "read_count": 168,
-          "read_growth_total": 2484000.0,
+          "read_growth_total": 2369000.0,
           "active_days": 56,
           "lead_category": "豪门总裁",
           "categories": [
@@ -284,94 +299,79 @@
             "职场婚恋",
             "青春甜宠"
           ]
-        },
-        {
-          "name": "男频·衍生游戏",
-          "score": 2435000,
-          "new_count": 92,
-          "dropped_count": 92,
-          "read_count": 126,
-          "read_growth_total": 2435000.0,
-          "active_days": 42,
-          "lead_category": "男频·动漫衍生",
-          "categories": [
-            "男频·动漫衍生",
-            "男频·男频衍生",
-            "男频·游戏体育"
-          ]
         }
       ],
       "hot_types": [
         {
           "name": "男频·都市脑洞",
-          "score": 1581000,
+          "score": 1604000,
           "new_count": 37,
           "dropped_count": 37,
           "read_count": 42,
-          "read_growth_total": 1581000.0,
+          "read_growth_total": 1604000.0,
           "active_days": 14
         },
         {
           "name": "男频·悬疑脑洞",
-          "score": 1482000,
-          "new_count": 28,
-          "dropped_count": 28,
+          "score": 1461000,
+          "new_count": 27,
+          "dropped_count": 27,
           "read_count": 42,
-          "read_growth_total": 1482000.0,
+          "read_growth_total": 1461000.0,
           "active_days": 14
         },
         {
           "name": "男频·悬疑灵异",
-          "score": 1361000,
-          "new_count": 27,
-          "dropped_count": 27,
+          "score": 1388000,
+          "new_count": 26,
+          "dropped_count": 26,
           "read_count": 42,
-          "read_growth_total": 1361000.0,
+          "read_growth_total": 1388000.0,
           "active_days": 14
         },
         {
           "name": "男频·动漫衍生",
-          "score": 1187000,
-          "new_count": 26,
-          "dropped_count": 26,
+          "score": 1188000,
+          "new_count": 25,
+          "dropped_count": 25,
           "read_count": 42,
-          "read_growth_total": 1187000.0,
+          "read_growth_total": 1188000.0,
           "active_days": 14
         },
         {
           "name": "男频·玄幻脑洞",
-          "score": 1097000,
-          "new_count": 39,
-          "dropped_count": 39,
+          "score": 1081000,
+          "new_count": 37,
+          "dropped_count": 37,
           "read_count": 42,
-          "read_growth_total": 1097000.0,
+          "read_growth_total": 1081000.0,
           "active_days": 14
         },
         {
           "name": "男频·都市高武",
-          "score": 991000,
+          "score": 958000,
           "new_count": 39,
           "dropped_count": 39,
           "read_count": 42,
-          "read_growth_total": 991000.0,
+          "read_growth_total": 958000.0,
           "active_days": 14
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 179,
+          "count": 183,
           "category_count": 34
         },
         {
           "name": "重生",
           "count": 64,
-          "category_count": 24
+          "category_count": 25
         },
         {
           "name": "空间",
-          "count": 59,
-          "category_count": 17
+          "count": 55,
+          "category_count": 18
         },
         {
           "name": "修仙",
@@ -380,71 +380,71 @@
         },
         {
           "name": "末世",
-          "count": 45,
+          "count": 42,
           "category_count": 11
         },
         {
-          "name": "双洁",
-          "count": 43,
-          "category_count": 16
+          "name": "穿书",
+          "count": 37,
+          "category_count": 14
         },
         {
-          "name": "穿书",
-          "count": 35,
-          "category_count": 14
+          "name": "双洁",
+          "count": 36,
+          "category_count": 12
         },
         {
           "name": "反派",
           "count": 34,
-          "category_count": 18
+          "category_count": 17
         },
         {
           "name": "年代",
-          "count": 34,
+          "count": 32,
           "category_count": 9
-        },
-        {
-          "name": "女配",
-          "count": 31,
-          "category_count": 12
         },
         {
           "name": "炮灰",
           "count": 30,
-          "category_count": 13
+          "category_count": 14
         },
         {
-          "name": "异能",
-          "count": 23,
-          "category_count": 11
-        },
-        {
-          "name": "甜宠",
-          "count": 23,
-          "category_count": 10
+          "name": "女配",
+          "count": 29,
+          "category_count": 12
         },
         {
           "name": "总裁",
-          "count": 23,
+          "count": 22,
           "category_count": 9
+        },
+        {
+          "name": "快穿",
+          "count": 22,
+          "category_count": 5
+        },
+        {
+          "name": "甜宠",
+          "count": 21,
+          "category_count": 10
         }
       ]
     },
     "30": {
       "period": "近 30 日",
       "source": "rule",
-      "summary": "近 30 日里，男频·都市、男频·玄幻仙侠 的阅读增长更强，具体分类以 男频·都市脑洞、男频·玄幻脑洞、男频·男频衍生 的新增在读更集中；新书题材上 系统、重生、空间、末世、修仙、双洁 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
-      "fallback_summary": "近 30 日里，男频·都市、男频·玄幻仙侠 的阅读增长更强，具体分类以 男频·都市脑洞、男频·玄幻脑洞、男频·男频衍生 的新增在读更集中；新书题材上 系统、重生、空间、末世、修仙、双洁 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "summary": "近 30 日里，男频·都市、男频·玄幻仙侠 的阅读增长更强，具体分类以 男频·都市脑洞、男频·玄幻脑洞、男频·男频衍生 的新增在读更集中；新书题材上 系统、重生、空间、末世、修仙、穿书 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
+      "fallback_summary": "近 30 日里，男频·都市、男频·玄幻仙侠 的阅读增长更强，具体分类以 男频·都市脑洞、男频·玄幻脑洞、男频·男频衍生 的新增在读更集中；新书题材上 系统、重生、空间、末世、修仙、穿书 更高频，说明读者仍偏好强设定、强情绪钩子和明确爽点。",
       "hot_genres": [
         {
           "name": "男频·都市",
-          "score": 7075359,
-          "new_count": 366,
-          "dropped_count": 368,
+          "score": 7001608,
+          "new_count": 359,
+          "dropped_count": 363,
           "read_count": 450,
-          "read_growth_total": 7075359.0,
+          "read_growth_total": 7001608.0,
           "active_days": 150,
-          "lead_category": "男频·都市日常",
+          "lead_category": "男频·都市高武",
           "categories": [
             "男频·都市日常",
             "男频·都市高武",
@@ -455,11 +455,11 @@
         },
         {
           "name": "男频·玄幻仙侠",
-          "score": 6618000,
-          "new_count": 266,
-          "dropped_count": 265,
+          "score": 6655000,
+          "new_count": 263,
+          "dropped_count": 263,
           "read_count": 360,
-          "read_growth_total": 6618000.0,
+          "read_growth_total": 6655000.0,
           "active_days": 120,
           "lead_category": "男频·玄幻脑洞",
           "categories": [
@@ -471,11 +471,11 @@
         },
         {
           "name": "现代言情",
-          "score": 6507000,
-          "new_count": 224,
-          "dropped_count": 224,
+          "score": 6527000,
+          "new_count": 221,
+          "dropped_count": 221,
           "read_count": 360,
-          "read_growth_total": 6507000.0,
+          "read_growth_total": 6527000.0,
           "active_days": 120,
           "lead_category": "豪门总裁",
           "categories": [
@@ -487,11 +487,11 @@
         },
         {
           "name": "男频·衍生游戏",
-          "score": 6260000,
-          "new_count": 217,
-          "dropped_count": 217,
+          "score": 6274000,
+          "new_count": 211,
+          "dropped_count": 211,
           "read_count": 270,
-          "read_growth_total": 6260000.0,
+          "read_growth_total": 6274000.0,
           "active_days": 90,
           "lead_category": "男频·男频衍生",
           "categories": [
@@ -502,11 +502,11 @@
         },
         {
           "name": "男频·脑洞科幻",
-          "score": 5354000,
-          "new_count": 146,
-          "dropped_count": 146,
+          "score": 5403000,
+          "new_count": 143,
+          "dropped_count": 143,
           "read_count": 180,
-          "read_growth_total": 5354000.0,
+          "read_growth_total": 5403000.0,
           "active_days": 60,
           "lead_category": "男频·都市脑洞",
           "categories": [
@@ -518,99 +518,84 @@
       "hot_types": [
         {
           "name": "男频·都市脑洞",
-          "score": 3329000,
-          "new_count": 78,
-          "dropped_count": 78,
+          "score": 3381000,
+          "new_count": 80,
+          "dropped_count": 80,
           "read_count": 90,
-          "read_growth_total": 3329000.0,
+          "read_growth_total": 3381000.0,
           "active_days": 30
         },
         {
           "name": "男频·玄幻脑洞",
-          "score": 2995000,
-          "new_count": 84,
-          "dropped_count": 84,
+          "score": 3023000,
+          "new_count": 81,
+          "dropped_count": 81,
           "read_count": 90,
-          "read_growth_total": 2995000.0,
+          "read_growth_total": 3023000.0,
           "active_days": 30
         },
         {
           "name": "男频·男频衍生",
-          "score": 2595000,
-          "new_count": 75,
-          "dropped_count": 75,
+          "score": 2547000,
+          "new_count": 73,
+          "dropped_count": 73,
           "read_count": 90,
-          "read_growth_total": 2595000.0,
-          "active_days": 30
-        },
-        {
-          "name": "男频·悬疑脑洞",
-          "score": 2523000,
-          "new_count": 62,
-          "dropped_count": 62,
-          "read_count": 90,
-          "read_growth_total": 2523000.0,
+          "read_growth_total": 2547000.0,
           "active_days": 30
         },
         {
           "name": "男频·动漫衍生",
-          "score": 2485000,
-          "new_count": 66,
-          "dropped_count": 66,
+          "score": 2529000,
+          "new_count": 65,
+          "dropped_count": 65,
           "read_count": 90,
-          "read_growth_total": 2485000.0,
+          "read_growth_total": 2529000.0,
+          "active_days": 30
+        },
+        {
+          "name": "男频·悬疑脑洞",
+          "score": 2519000,
+          "new_count": 64,
+          "dropped_count": 64,
+          "read_count": 90,
+          "read_growth_total": 2519000.0,
           "active_days": 30
         },
         {
           "name": "豪门总裁",
-          "score": 2394000,
+          "score": 2382000,
           "new_count": 61,
           "dropped_count": 61,
           "read_count": 90,
-          "read_growth_total": 2394000.0,
+          "read_growth_total": 2382000.0,
           "active_days": 30
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 245,
+          "count": 250,
           "category_count": 35
         },
         {
           "name": "重生",
-          "count": 120,
-          "category_count": 28
+          "count": 113,
+          "category_count": 30
         },
         {
           "name": "空间",
-          "count": 87,
+          "count": 84,
           "category_count": 21
         },
         {
           "name": "末世",
-          "count": 76,
+          "count": 77,
           "category_count": 14
         },
         {
           "name": "修仙",
-          "count": 69,
-          "category_count": 19
-        },
-        {
-          "name": "双洁",
-          "count": 57,
-          "category_count": 16
-        },
-        {
-          "name": "女配",
-          "count": 55,
-          "category_count": 16
-        },
-        {
-          "name": "反派",
-          "count": 54,
-          "category_count": 23
+          "count": 71,
+          "category_count": 20
         },
         {
           "name": "穿书",
@@ -618,29 +603,44 @@
           "category_count": 17
         },
         {
-          "name": "年代",
+          "name": "女配",
           "count": 54,
+          "category_count": 16
+        },
+        {
+          "name": "反派",
+          "count": 53,
+          "category_count": 22
+        },
+        {
+          "name": "双洁",
+          "count": 52,
+          "category_count": 14
+        },
+        {
+          "name": "年代",
+          "count": 52,
           "category_count": 9
         },
         {
           "name": "炮灰",
-          "count": 43,
-          "category_count": 16
+          "count": 46,
+          "category_count": 17
         },
         {
           "name": "快穿",
-          "count": 41,
-          "category_count": 5
+          "count": 43,
+          "category_count": 6
         },
         {
           "name": "四合院",
-          "count": 37,
-          "category_count": 3
+          "count": 36,
+          "category_count": 4
         },
         {
-          "name": "种田",
-          "count": 36,
-          "category_count": 13
+          "name": "总裁",
+          "count": 35,
+          "category_count": 10
         }
       ]
     },
@@ -652,12 +652,12 @@
       "hot_genres": [
         {
           "name": "现代言情",
-          "score": 36476000,
-          "new_count": 1128,
-          "dropped_count": 1128,
-          "read_count": 2034,
-          "read_growth_total": 36476000.0,
-          "active_days": 684,
+          "score": 36608000,
+          "new_count": 1133,
+          "dropped_count": 1133,
+          "read_count": 2046,
+          "read_growth_total": 36608000.0,
+          "active_days": 688,
           "lead_category": "豪门总裁",
           "categories": [
             "现言脑洞",
@@ -668,12 +668,12 @@
         },
         {
           "name": "古风言情",
-          "score": 17734000,
-          "new_count": 1239,
-          "dropped_count": 1239,
-          "read_count": 2040,
-          "read_growth_total": 17734000.0,
-          "active_days": 684,
+          "score": 17853000,
+          "new_count": 1247,
+          "dropped_count": 1247,
+          "read_count": 2052,
+          "read_growth_total": 17853000.0,
+          "active_days": 688,
           "lead_category": "古言脑洞",
           "categories": [
             "古风世情",
@@ -684,12 +684,12 @@
         },
         {
           "name": "幻想言情",
-          "score": 14389226,
-          "new_count": 1017,
-          "dropped_count": 1017,
-          "read_count": 2052,
-          "read_growth_total": 14389226.0,
-          "active_days": 684,
+          "score": 14453226,
+          "new_count": 1024,
+          "dropped_count": 1024,
+          "read_count": 2064,
+          "read_growth_total": 14453226.0,
+          "active_days": 688,
           "lead_category": "玄幻言情",
           "categories": [
             "玄幻言情",
@@ -700,12 +700,12 @@
         },
         {
           "name": "快穿衍生",
-          "score": 10654000,
-          "new_count": 614,
-          "dropped_count": 614,
-          "read_count": 1023,
-          "read_growth_total": 10654000.0,
-          "active_days": 342,
+          "score": 10736000,
+          "new_count": 617,
+          "dropped_count": 617,
+          "read_count": 1029,
+          "read_growth_total": 10736000.0,
+          "active_days": 344,
           "lead_category": "快穿",
           "categories": [
             "快穿",
@@ -714,12 +714,12 @@
         },
         {
           "name": "年代民国",
-          "score": 8024345,
-          "new_count": 590,
-          "dropped_count": 590,
-          "read_count": 1024,
-          "read_growth_total": 8024345.0,
-          "active_days": 342,
+          "score": 8083189,
+          "new_count": 592,
+          "dropped_count": 592,
+          "read_count": 1030,
+          "read_growth_total": 8083189.0,
+          "active_days": 344,
           "lead_category": "年代",
           "categories": [
             "年代",
@@ -730,63 +730,63 @@
       "hot_types": [
         {
           "name": "豪门总裁",
-          "score": 13932000,
-          "new_count": 294,
-          "dropped_count": 294,
-          "read_count": 507,
-          "read_growth_total": 13932000.0,
-          "active_days": 171
+          "score": 13970000,
+          "new_count": 296,
+          "dropped_count": 296,
+          "read_count": 510,
+          "read_growth_total": 13970000.0,
+          "active_days": 172
         },
         {
           "name": "现言脑洞",
-          "score": 10356000,
-          "new_count": 297,
-          "dropped_count": 297,
-          "read_count": 507,
-          "read_growth_total": 10356000.0,
-          "active_days": 171
+          "score": 10402000,
+          "new_count": 298,
+          "dropped_count": 298,
+          "read_count": 510,
+          "read_growth_total": 10402000.0,
+          "active_days": 172
         },
         {
           "name": "青春甜宠",
-          "score": 8023000,
+          "score": 8048000,
           "new_count": 263,
           "dropped_count": 263,
-          "read_count": 507,
-          "read_growth_total": 8023000.0,
-          "active_days": 171
+          "read_count": 510,
+          "read_growth_total": 8048000.0,
+          "active_days": 172
         },
         {
           "name": "年代",
-          "score": 6578000,
-          "new_count": 355,
-          "dropped_count": 355,
-          "read_count": 511,
-          "read_growth_total": 6578000.0,
-          "active_days": 171
+          "score": 6631000,
+          "new_count": 356,
+          "dropped_count": 356,
+          "read_count": 514,
+          "read_growth_total": 6631000.0,
+          "active_days": 172
         },
         {
           "name": "快穿",
-          "score": 6297000,
-          "new_count": 302,
-          "dropped_count": 302,
-          "read_count": 512,
-          "read_growth_total": 6297000.0,
-          "active_days": 171
+          "score": 6320000,
+          "new_count": 304,
+          "dropped_count": 304,
+          "read_count": 515,
+          "read_growth_total": 6320000.0,
+          "active_days": 172
         },
         {
           "name": "古言脑洞",
-          "score": 5827000,
-          "new_count": 311,
-          "dropped_count": 311,
-          "read_count": 507,
-          "read_growth_total": 5827000.0,
-          "active_days": 171
+          "score": 5849000,
+          "new_count": 312,
+          "dropped_count": 312,
+          "read_count": 510,
+          "read_growth_total": 5849000.0,
+          "active_days": 172
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 340,
+          "count": 351,
           "category_count": 35
         },
         {
@@ -796,58 +796,58 @@
         },
         {
           "name": "快穿",
-          "count": 227,
+          "count": 230,
           "category_count": 12
         },
         {
           "name": "女配",
-          "count": 182,
+          "count": 184,
           "category_count": 19
         },
         {
           "name": "末世",
-          "count": 169,
+          "count": 171,
           "category_count": 16
         },
         {
           "name": "空间",
-          "count": 141,
+          "count": 139,
+          "category_count": 21
+        },
+        {
+          "name": "炮灰",
+          "count": 134,
           "category_count": 21
         },
         {
           "name": "反派",
-          "count": 130,
+          "count": 131,
           "category_count": 26
         },
         {
-          "name": "炮灰",
-          "count": 130,
-          "category_count": 19
-        },
-        {
           "name": "修仙",
-          "count": 110,
-          "category_count": 20
+          "count": 112,
+          "category_count": 21
         },
         {
           "name": "年代",
-          "count": 99,
+          "count": 98,
           "category_count": 12
         },
         {
           "name": "穿书",
-          "count": 87,
+          "count": 91,
           "category_count": 20
         },
         {
           "name": "团宠",
-          "count": 84,
+          "count": 81,
           "category_count": 21
         },
         {
           "name": "星际",
-          "count": 69,
-          "category_count": 9
+          "count": 70,
+          "category_count": 10
         },
         {
           "name": "逃荒",
